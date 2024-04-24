@@ -51,9 +51,10 @@ footer .copyright {
   padding: 20px;
 }
 
-div.modalcontent {
-    width: 90%
+.modal {
+    min-width: 90% !important;
 }
 #pic {
     max-width: 99%;
 }
+
