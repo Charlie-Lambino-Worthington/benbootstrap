@@ -35,22 +35,25 @@ footer .copyright {
 #gallery {
     background-color: #9E768F;
     margin: 0;
+    padding-top: 60px;
 }
 #galleryitem {
     align: center;
     max-width: 400px;
     max-height: 400px;
-    padding:5px;
+    padding:10px;
 }
 #photos {
     padding-top: 65px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+  padding: 20px;
 }
+
 div.modalcontent {
     width: 90%
 }
-div.modalbody img {
-    width: 70%;
+#pic {
+    max-width: 99%;
 }
