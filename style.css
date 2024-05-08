@@ -4,12 +4,12 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #6C464F;
+    background-color: #C7F0BD;
 }
 /*color*/
 .intro {
     margin-top: 20px;
-    background-color: #6C464F ;
+    background-color: #C7F0BD;
     min-height: 580px;
 }
 .carousel {
@@ -30,10 +30,16 @@ footer ul li i,
 footer .copyright {
     color: rgba(255, 255, 255, 0.829);
 }
+/*about*/
+#gallery {
+    background-color: #B3CDD1;
+    margin: 0;
+    padding-top: 60px;
+}
 
 /*gallery*/
 #gallery {
-    background-color: #9E768F;
+    background-color: #9FA4C4;
     margin: 0;
     padding-top: 60px;
 }
@@ -58,9 +64,12 @@ footer .copyright {
     max-width: 99%;
 }
 
-@media screen (max-width: 700px) {
+
+@media only screen and (max-width: 600px) { 
     #galleryitem {
-        max-width: 200px;
-        max-height: 200px;
-        margin: 0;
+        align: center;
+        width: 250px !important;
+        max-height: 400px;
+        padding:10px;
+    }
 }
